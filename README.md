@@ -1,3 +1,7 @@
-# DolbyPackage
+# SPMDolbySDK
 
-A description of this package.
+Test SPM for DolbySDK
+Includes:
+dvclient.xcframework
+(TBD) VoxeetSDK
+(TBD) WebRTC
