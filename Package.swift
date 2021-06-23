@@ -2,17 +2,17 @@
 //dvclient.xcframework
 import PackageDescription
 let package = Package(
-    name: "dvclient",
+    name: "DolbySDK",
     products: [
-        .library(name: "dvclient_arm64", targets: ["dvclient"])
+        .library(name: "DolbySDK", targets: ["DolbySDK"])
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-            name: "dvclient",
-            url:"https://github.com/dvpweb-client-projects/SPMDolbySDK/raw/main/frameworks/dvclient.xcframework.zip",
-            checksum: "917d4709fdfb9c57bac0b7a1c29fb56bb09b305caf57e94797f425dd7fde44a8"
+            name: "DolbySDK",
+            url:"https://github.com/dvpweb-client-projects/SPMDolbySDK/raw/main/frameworks/DolbySDK.zip",
+            checksum: "66ee5bcc8514a4b97a13a16482e7f259e9fe8e6f8b64b289fe70a266902d479f"
         )
     ]
 )
