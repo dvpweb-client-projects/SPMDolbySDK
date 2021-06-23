@@ -1,2 +1,3 @@
-# SPMDolbySDK
-Swift Package Manager SDK Demo
+# DolbyPackage
+
+A description of this package.
