@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "dvclient",
     products: [
-        .library(name: "dvclient", targets: ["dvclient"])
+        .library(name: "dvclient_arm64", targets: ["dvclient"])
     ],
     dependencies: [
     ],
